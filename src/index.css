@@ -2,12 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Hide the scrollbar */
 ::-webkit-scrollbar {
   display: none;
 }
 
-/* Optional: You can still make the content scrollable */
 .scrollable {
-  overflow: scroll; /* or 'auto' */
+  overflow: scroll;
 }

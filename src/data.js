@@ -1,4 +1,3 @@
-// Monthly Revenue Data
 export const revenueData = [
   { week: "Week1", revenue: 15000 },
   { week: "Week2", revenue: 32000 },
@@ -12,18 +11,6 @@ export const revenueData = [
   { week: "Week10", revenue: 120000 },
 ];
 
-// Top Searched Products
-
-export const searchedProducts = [
-  { product: "Laptop", searches: 1500, rating: 4.5, reviews: 100 },
-  { product: "Smartphone", searches: 1800, rating: 4.3, reviews: 120 },
-  { product: "Speakers", searches: 500, rating: 4.0, reviews: 50 },
-  { product: "Headphones", searches: 600, rating: 3.8, reviews: 80 },
-  { product: "Smartwatch", searches: 700, rating: 4.6, reviews: 90 },
-  { product: "Tablet", searches: 650, rating: 4.2, reviews: 75 },
-];
-
-// Peak Search Times
 export const searchTimes = [
   { time: "12 AM - 4 AM", searches: 100 },
   { time: "4 AM - 8 AM", searches: 300 },
@@ -33,7 +20,6 @@ export const searchTimes = [
   { time: "8 PM - 12 AM", searches: 450 },
 ];
 
-// Sales Trends Over Time
 export const salesTrends = [
   { month: "Jan", sales: 1500 },
   { month: "Feb", sales: 2500 },
@@ -49,16 +35,6 @@ export const salesTrends = [
   { month: "Dec", sales: 700 },
 ];
 
-// Category-wise Sales Breakdown
-export const categorySales = [
-  { category: "Electronics", revenue: 250000 },
-  { category: "Fashion", revenue: 150000 },
-  { category: "Home & Kitchen", revenue: 130000 },
-  { category: "Beauty", revenue: 120000 },
-  { category: "Sports", revenue: 110000 },
-];
-
-// New vs Returning Customers
 export const customerData = [
   { month: "Jan", newCustomers: 410, returningCustomers: 240 },
   { month: "Feb", newCustomers: 590, returningCustomers: 560 },
@@ -74,7 +50,6 @@ export const customerData = [
   { month: "Dec", newCustomers: 780, returningCustomers: 740 },
 ];
 
-// Geographic Sales Distribution
 export const locationSales = [
   {
     country: "United States of America",
@@ -88,18 +63,6 @@ export const locationSales = [
   { country: "Australia", revenue: 60000, coordinates: [133, -25] },
 ];
 
-// Low Stock & Trending Products
-export const inventoryData = [
-  { product: "Laptop", stock: 5 },
-  { product: "Shoes", stock: 50 },
-  { product: "Phone", stock: 7 },
-  { product: "Tshirts", stock: 20 },
-  { product: "Headphones", stock: 15 },
-  { product: "Skincare", stock: 4 },
-  { product: "Watch", stock: 5 },
-];
-
-// Order Conversion Rate
 export const conversionData = [
   { month: "Jan", views: 4400, orders: 290 },
   { month: "Feb", views: 5500, orders: 1200 },
@@ -115,7 +78,6 @@ export const conversionData = [
   { month: "Dec", views: 10000, orders: 700 },
 ];
 
-// Monthly Product Exchanges and Returns Data
 export const monthlyExchangesAndReturns = [
   { month: "Jan", exchanges: 50, returns: 15 },
   { month: "Feb", exchanges: 60, returns: 20 },
@@ -180,7 +142,7 @@ export const orders = [
 
 export const bestSellingProducts = [
   { product: "Smartphone", sales: 120 },
-  { product: "Backpack", sales: 75 }, // Accessories
+  { product: "Backpack", sales: 75 },
   { product: "T-shirt", sales: 70 },
   { product: "Headphones", sales: 80 },
   { product: "Sunglasses", sales: 48 },

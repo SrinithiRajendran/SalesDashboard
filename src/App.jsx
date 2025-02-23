@@ -7,7 +7,7 @@ import { useContext, useState } from "react";
 import OrderManagement from "./components/OrderManagement";
 import { Customers } from "./components/Customers";
 import Analytics from "./components/Analytics";
-import { ThemeContext } from "./context/ThemeContext"; // Named import
+import { ThemeContext } from "./context/ThemeContext";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
