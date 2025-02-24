@@ -38,7 +38,7 @@ const ReturnsExchange = () => {
         >
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="month" tick={{ fontSize: 10, fill: textColor }} />
-          <YAxis tick={{ fontSize: 10, fill: textColor }} />
+          <YAxis tick={{ fontSize: 10, fill: textColor }} width={25} />
           <Tooltip
             cursor={{ fill: "none" }}
             contentStyle={{

@@ -16,7 +16,7 @@ const RevenueData = () => {
   const { darkMode } = useContext(ThemeContext);
 
   return (
-    <div className="w-full p-4 text-[10px]">
+    <div className="w-full p-2 text-[10px]">
       <h2
         className="text-[10px] md:text-[12px] font-bold text-center mb-4"
         style={{ color: darkMode ? "#0ff" : "#000" }}
@@ -36,7 +36,10 @@ const RevenueData = () => {
             dataKey="week"
             tick={{ fontSize: 10, fill: darkMode ? "#0ff" : "#1b29e3" }}
           />
-          <YAxis tick={{ fontSize: 10, fill: darkMode ? "#0ff" : "#1b29e3" }} />
+          <YAxis
+            tick={{ fontSize: 10, fill: darkMode ? "#0ff" : "#1b29e3" }}
+            width={40}
+          />
           <Tooltip
             contentStyle={{
               backgroundColor: darkMode ? "rgba(0, 0, 0, 0.8)" : "#fff",

@@ -33,7 +33,7 @@ const SalesTrends = () => {
             dataKey="month"
             tick={{ fill: darkMode ? "#0ff" : "#086f9e" }}
           />
-          <YAxis tick={{ fill: darkMode ? "#0ff" : "#086f9e" }} />
+          <YAxis tick={{ fill: darkMode ? "#0ff" : "#086f9e" }} width={25} />
           <Tooltip
             contentStyle={{
               backgroundColor: darkMode ? "rgba(0, 0, 0, 0.8)" : "#fff",

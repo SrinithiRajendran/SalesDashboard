@@ -7,7 +7,7 @@ import Cards from "./Cards";
 
 const DashBoardOverView = () => {
   return (
-    <div className=" w-full h-full overflow-y-auto md:p-6 ">
+    <div className=" w-full h-full overflow-y-auto">
       <Cards />
       <div className="md:pr-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 md:gap-6">
         <div className="col-span-2 md:col-span-3">

@@ -37,7 +37,10 @@ const BestSellingProducts = () => {
             dataKey="product"
             tick={{ fontSize: 10, fill: darkMode ? "#0ff" : "#000" }}
           />
-          <YAxis tick={{ fontSize: 10, fill: darkMode ? "#0ff" : "#000" }} />
+          <YAxis
+            tick={{ fontSize: 10, fill: darkMode ? "#0ff" : "#000" }}
+            width={30}
+          />
           <Tooltip
             contentStyle={{
               backgroundColor: darkMode ? "rgba(0, 0, 0, 0.8)" : "#fff",

@@ -36,7 +36,7 @@ const ConversionData = () => {
         >
           <CartesianGrid strokeDasharray="3 3" stroke={gridColor} />
           <XAxis dataKey="month" tick={{ fontSize: 10, fill: textColor }} />
-          <YAxis tick={{ fontSize: 10, fill: textColor }} />
+          <YAxis tick={{ fontSize: 10, fill: textColor }} width={30} />
           <Tooltip
             cursor={{ stroke: textColor, strokeWidth: 1 }}
             contentStyle={{
